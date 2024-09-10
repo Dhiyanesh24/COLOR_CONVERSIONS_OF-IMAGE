@@ -55,8 +55,8 @@ o	Save the final modified image to your local directory.
 
 ## Program:
 ```py
-#Developed By: Prajeeth K T
-#Register Number: 212222110034
+#Developed By: Dhiyaneshwar P
+#Register Number: 212222110009
 
 #1.Read and Display an Image:
 import cv2
