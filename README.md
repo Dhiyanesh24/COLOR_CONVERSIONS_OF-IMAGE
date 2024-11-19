@@ -67,7 +67,7 @@ cv2.destroyAllWindows()
 
 #2a.Draw a line from the top-left to the bottom-right of the image
 start=(0,0)
-end=(1370,790)
+end=(1370,780)
 color = (255, 0, 0)
 thickness = 5 
 diagonal= cv2.line(image, start, end, color, thickness)
@@ -171,7 +171,7 @@ cv2.imwrite('modified image',flipped_vertically)
 ![image](https://github.com/user-attachments/assets/5aed25a6-8c38-4e67-ac47-8706361d926b)
 ![image](https://github.com/user-attachments/assets/9979731d-4fbb-49b6-b153-72fdf9952095)
 ![image](https://github.com/user-attachments/assets/6c31d60f-2e93-47dd-b17d-84676041cacd)
-![image](https://github.com/user-attachments/assets/88ce759a-42ff-4894-96a1-39d4bdafef03)
+![image](https://github.com/user-attachments/assets/5768a1a7-d11f-4d14-8e4a-b5fdaa57677b)
 ![image](https://github.com/user-attachments/assets/5f6eed6c-1645-4229-bc6b-6b35201be9d2)
 ![image](https://github.com/user-attachments/assets/ce6fdddd-5c8d-4967-b30b-8ed183d6d127)
 ![image](https://github.com/user-attachments/assets/6137e43e-7cb2-43f8-b11c-e5c4cfd8eecf)
