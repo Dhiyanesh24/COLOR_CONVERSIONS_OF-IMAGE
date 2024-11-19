@@ -67,7 +67,7 @@ cv2.destroyAllWindows()
 
 #2a.Draw a line from the top-left to the bottom-right of the image
 start=(0,0)
-end=(960,540)
+end=(1370,790)
 color = (255, 0, 0)
 thickness = 5 
 diagonal= cv2.line(image, start, end, color, thickness)
@@ -86,14 +86,15 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 #2c.Draw a rectangle around a specific region of interest in the image
-start=(10,10)
-end=(230,160)
+start=(5,5)
+end=(1365,780)
 color = (0, 255, 0)
 thickness = 5 
 rectangle=cv2.rectangle(image, start, end, color, thickness)
 cv2.imshow('rectangle',rectangle)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 
 #2d.Add the text "OpenCV Drawing" at the top-left corner of the image
 text = "OpenCV"
